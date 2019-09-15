@@ -1,3 +1,71 @@
 <!--pages/dd/my/my.wxml-->
-<text>pages/dd/my/my.wxml</text>
+<!-- 设置头部图片---会员id---昵称 -->
+<view class="top">
+  <view class="top-img">
+    <image src="/images/01.png" style="width:100%;"></image>
+  </view>
+  <view class="top-vipid">会员id：xxxxxxxxxx</view>
+  <view class="top-vipname">喜宴会员</view>
+</view>
+
+<!-- 设置中间的钱包 -->
+<view class="my-beg">
+  <view>
+    <image src="/images/beg.png"></image>
+    <text>我的钱包</text>
+  </view>
+  <view>
+    <view>
+      <text>0.00元</text>
+      <text>我的余额</text>
+    </view>
+    <view>
+      <text>0</text>
+      <text>我的积分</text>
+    </view>
+  </view>
+</view>
+
+<!-- 设置我的订单 -->
+<view class="my-order">
+  <view>
+    <image src="/images/01.png"></image>
+    <text>我的订单</text>
+    <text>查看所有订单</text>
+  </view>
+  <view>
+    <image src="/images/01.png"></image>
+    <text>待付款</text>
+    <image src="/images/01.png"></image>
+    <text>发货中</text>
+    <image src="/images/01.png"></image>
+    <text>已完成</text>
+  </view>
+</view>
+
+<!-- 设置我的资料 -->
+<view>
+  <image src="/images/01.png"></image>
+  <text>我的订单</text>
+  <image src="/images/01.png"></image>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/dd/my/my",
     "pages/dd/index/index",
     "pages/dd/details/details",
-    "pages/dd/my/my",
     "pages/dd/cart/cart"
   ],
   "window": {
