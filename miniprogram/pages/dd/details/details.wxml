@@ -1,2 +1,31 @@
 <!--pages/dd/detalis/details.wxml-->
-<text>pages/dd/detalis/details.wxml</text>
+<view>
+  <image style="width:100%;height:230px;" src="/images/001.jpg"></image>
+</view>
+<view class="row">
+  <view class="col-2">
+    <view>凉菜</view>
+    <view>热菜</view>
+    <view>汤类</view>
+    <view>时令蔬菜</view>
+  </view>
+  <view wx:for="{{list}}" wx:key="index" class="col-8">
+    <view>
+      <image src="/images/001.jpg"></image>
+    </view>
+    <view>
+      <view>
+        <text>{{item.title}}</text>
+      </view>
+      <view>
+        <text>￥{{item.price}}.00/份</text>
+      </view>
+      <view>
+        <button>-</button>
+        <view>{{item.msg}}</view>
+        <button>+</button>
+      </view>
+    </view>
+  </view>
+</view>
+
