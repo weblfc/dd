@@ -99,13 +99,16 @@ image{
 .middle text{
   font-size: 16px;
   color:#f00;
-  font
 }
 .
 .yue{
   float: left;
 }
-
+.yue view,.jifen view{
+  font-size:12px;
+  color:rgb(73, 71, 71);
+  margin:10px;
+  }
 .jifen{
   float: left;
 }
