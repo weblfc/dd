@@ -1,3 +1,85 @@
 <!--pages/dd/my/my.wxml-->
-<text>pages/dd/my/my.wxml</text>
+<!-- 设置头部图片---会员id---昵称 -->
+<view class="body">
+  <view class="top">
+    <view class="top-img">
+      <image src="/images/shoppingcar.png" style="width:100%;"></image>
+    </view>
+    <view class="top-text">
+      <view class="top-vipid">会员id：xxxxxxxxxx</view>
+      <view class="top-vipname">喜宴会员</view>
+    </view>
+  </view>
 
+  <!-- 设置中间的钱包 -->
+
+  <view class="center">
+    <view class="my-beg">
+      <view class="money">
+        <image src="/images/money.png"></image>
+        <text>我的钱包</text>
+      </view>
+      <view class="middle">
+        <view class="yue">
+          <text>0.00元</text>
+          <view>我的余额</view>
+        </view>
+        <view class="jifen">
+          <text>0</text>
+          <view>我的积分</view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 设置我的订单 -->
+    <view class="my-order">
+      <view>
+        <image src="/images/mydingdan.png"></image>
+        <text>我的订单</text>
+        <text>查看所有订单</text>
+      </view>
+      <view>
+        <image src="/images/dingdan.png"></image>
+        <text>待付款</text>
+        <image src="/images/shoppingcar.png"></image>
+        <text>发货中</text>
+        <image src="/images/success.png"></image>
+        <text>已完成</text>
+      </view>
+    </view>
+
+    <!-- 设置我的资料 -->
+    <view>
+      <image src="/images/me.png"></image>
+      <text>我的资料</text>
+      <image src="/images/right1.png"></image>
+    </view>
+    <!-- 设置我的拼团 -->
+    <view>
+      <image src="/images/tuan.png"></image>
+      <text>我的拼团</text>
+      <image src="/images/right1.png"></image>
+    </view>
+    <!-- 设置我的砍价 -->
+    <view>
+      <image src="/images/kill.png"></image>
+      <text>我的砍价</text>
+      <image src="/images/right1.png"></image>
+    </view>
+    <!-- 设置我的会员卡 -->
+    <view>
+      <image src="/images/vip.png"></image>
+      <text>我的会员卡</text>
+      <image src="/images/right1.png"></image>
+    </view>
+    <!-- 设置我的领卡中心 -->
+    <view>
+      <image src="/images/mybeg.png"></image>
+      <text>领卡中心</text>
+      <image src="/images/right1.png"></image>
+    </view>
+
+  </view>
+
+
+</view>
