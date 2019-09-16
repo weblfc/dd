@@ -1,0 +1,5 @@
+/*公共样式文件*/
+.admin{
+  color:#f00;
+  font-size:29px;
+}

@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+  list: [{ id:1,title: "小炒黄牛肉", price: 49, msg: 0 }, { id:2,title: "大炒黄牛肉", price: 59, msg: 0 }, { id:3,title: "小炒黄牛肉", price: 69, msg: 0 }, { id:4,title: "小炒黄牛肉", price: 79, msg: 0 }, { id:5,title: "小炒黄牛肉", price: 89, msg: 0 }]
   },
 
   /**
