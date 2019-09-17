@@ -1,19 +1,19 @@
 /* pages/dd/my/my.wxss */
+/* 给body设置背景颜色 */
+.body{
+  width:100%;
+  height:100%;
+  background-color:rgb(236, 225, 225)
+}
 /* 设置头部图片---会员id---昵称  */
 .top{
   width:100%;
   height:100px;
   font-size: 16px;
   background-color: #FF3030;
-  /* display：flex; */
   font-family: yahei;
-  /* color:#999; */
-  /* text-align: center; */
 }
-/* .top:after{
-  content: "";
-  display:block;
-} */
+
 /* 设置头部图片样式 */
 .top-img{
   width:20%;
@@ -40,34 +40,28 @@
 }
 /* 设置会员id */
 .top-vipid,.top-vipname{
-  /* margin-top:5%; */
   font-size:12px;
   color:#fff;
-  /* margin-bottom:1%; */
-  /* margin-left:10%; */
   margin:3% 0;
 }
 
 
 /* 设置中间我的钱包 */
 image{
-  width:30px;
+  width:20px;
   height:20px;
 }
 
-/* 给body设置背景颜色 */
-.body{
+.money-middle{
   width:100%;
-  height:100%;
-  background-color:rgb(236, 225, 225)
-}
-.center{
-  margin:0 auto;
 }
 /* 设置我的钱包 */
+.center{
+  width:95%;
+  margin:0 auto;
+}
 .my-beg{
-  width:80%;
-  /* height:30%; */
+  /* width:90%; */
   border:1px solid #fff;
   background-color:#fff;
   border-radius:10px 10px 0 0; 
@@ -76,20 +70,19 @@ image{
 }
 .money{
   height:30px;
-  border-bottom:1px solid #f00;
+  border-bottom:1px solid #999;
   font-size:14px;
   font-family: yahei;
   color:rgb(73, 71, 71);
-  margin-left:10px;
+  margin:10px 10px;
+
 }
 .money text{
   padding:10px ;
  }
 .money image{
   width:20px;height:20px;
-  /* margin-top:10px; */
 }
-
 /* 设置中间余额和积分栏 */
 .middle{
   display:flex;
@@ -99,16 +92,66 @@ image{
 .middle text{
   font-size: 16px;
   color:#f00;
+  font-weight: 900;
 }
-.
-.yue{
+
+.yue,.jifen{
   float: left;
+  padding:10px;
 }
+
 .yue view,.jifen view{
   font-size:12px;
-  color:rgb(73, 71, 71);
-  margin:10px;
+  color:rgba(73, 71, 71,0.9);
+  margin:8px;
   }
-.jifen{
+
+ /* <!-- 设置我的订单 --> */
+.my-order{
+  width:100%;
+  background-color: #fff;
+  margin-top:10px;
+  border:1px solid #fff;
+  border-radius: 10px 10px 0 0;
+}
+.image-order{
+  padding:10px 10px;
+  border-bottom:#f00;  /*???????*/
+  display:flex;
+  justify-content: space-between;
+  /* margin:20px 10px; */
+  background-color: #fff;
+  margin-top: 5px;
+  }
+.my-order:after{
+  content: "";
+  display:block;
+}
+.my-img-order image , .my-img-order view{
+  float: left;
+  font-size:16px;
+  font-family: yahei;
+  color:#656;
+}
+.my-img-order view{
+  margin-left:10px;
+}
+.my-img-order{
   float: left;
 }
+.select-order{
+  float: left;
+  color:#ccc;
+  font-size: 14px;
+}
+
+.dss{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size:14px;
+  color:#999;
+  padding:20px 0;
+}
+
+
