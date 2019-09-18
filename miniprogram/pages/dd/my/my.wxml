@@ -3,11 +3,11 @@
 <view class="body">
   <view class="top">
     <view class="top-img">
-      <image src="/images/shoppingcar.png" style="width:100%;"></image>
+      <image src="/images/shoppingcar.png" bindtap="upload"></image>
     </view>
     <view class="top-text">
-      <view class="top-vipid">会员id：xxxxxxxxxx</view>
-      <view class="top-vipname">喜宴会员</view>
+      <view>会员ID：1729723177</view>
+      <view>全幼儿园最可爱</view>
     </view>
   </view>
 
@@ -21,11 +21,11 @@
         </view>
         <view class="middle">
           <view class="yue">
-            <text>0.00元</text>
+            <text>100.00元</text>
             <view>我的余额</view>
           </view>
           <view class="jifen">
-            <text>0</text>
+            <text>1111</text>
             <view>我的积分</view>
           </view>
         </view>
@@ -39,18 +39,18 @@
         <image src="/images/mydingdan.png"></image>
         <view>我的订单</view>
       </view>
-      <view class="select-order">查看所有订单</view>
+      <view class="select-order" bindtap="jumpComment">查看所有订单</view>
     </view>
     <view class="dss">
-      <view>
+      <view class="pay">
         <image src="/images/dingdan.png"></image>
         <view>待付款</view>
       </view>
-      <view>
+      <view class="pay">
         <image src="/images/shoppingcar.png"></image>
         <view>发货中</view>
       </view>
-      <view>
+      <view class="pay">
         <image src="/images/success.png"></image>
         <view>已完成</view>
       </view>
@@ -94,7 +94,7 @@
   <view class="image-order">
     <view class="my-img-order">
       <image src="/images/vip.png"></image>
-      <view>我的会员卡</view>
+      <view>会员中心</view>
     </view>
     <view class="select-order">
       <image src="/images/right1.png"></image>

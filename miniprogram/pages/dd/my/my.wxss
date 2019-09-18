@@ -1,57 +1,52 @@
+image{
+  width:50rpx;
+  height:50rpx;
+  display:block;
+}
 /* pages/dd/my/my.wxss */
 /* 给body设置背景颜色 */
 .body{
   width:100%;
   height:100%;
-  background-color:rgb(236, 225, 225)
+  background-color:rgb(250, 248, 248);
+  font-family: yahei;
 }
 /* 设置头部图片---会员id---昵称  */
 .top{
   width:100%;
-  height:100px;
-  font-size: 16px;
+  height:170rpx;
+  padding-top:20rpx;
   background-color: #FF3030;
-  font-family: yahei;
+  display: flex;
 }
 
 /* 设置头部图片样式 */
 .top-img{
-  width:20%;
-  height:50%;
-  border:1px solid #FF3030;
+  width:100rpx;
+  height:100rpx;
+  background-color: #fff;
+  border:1px solid #fff;
   border-radius: 50%;
-  margin-left:2%;
-  float: left;
-  margin-top:5%;
+  margin-left:3%;
 }
-.top-img image{
-  width:100%;
+.top image{
+  width:100%; 
   height:100%;
-   border-radius: 50%;
-    border:1px solid #FF3030; 
+  border-radius: 50%;
 }
 
-.top-text{
-  width:70%;
-  /* height:100%; */
-  float:left;
-  margin-top:3%;
-  padding-left:3%;
-}
 /* 设置会员id */
-.top-vipid,.top-vipname{
-  font-size:12px;
+.top-text{
+  padding-left:40rpx;
+  font-size:13px;
   color:#fff;
-  margin:3% 0;
+}
+.top-text view{
+  margin-top:5rpx;
 }
 
 
 /* 设置中间我的钱包 */
-image{
-  width:20px;
-  height:20px;
-}
-
 .money-middle{
   width:100%;
 }
@@ -61,27 +56,24 @@ image{
   margin:0 auto;
 }
 .my-beg{
-  /* width:90%; */
   border:1px solid #fff;
   background-color:#fff;
   border-radius:10px 10px 0 0; 
-  margin-top:-15px;
-  
+  margin-top:-40rpx;
 }
 .money{
-  height:30px;
-  border-bottom:1px solid #999;
-  font-size:14px;
+  font-size:15px;
+  border-bottom:1px solid #ccc;
   font-family: yahei;
-  color:rgb(73, 71, 71);
-  margin:10px 10px;
-
+  color:rgb(83, 83, 83);
+  padding: 15rpx 15rpx;
+  display: flex
 }
-.money text{
-  padding:10px ;
- }
+ .money text{
+  margin-left:15rpx ;
+ } 
 .money image{
-  width:20px;height:20px;
+  width:40rpx;height:40rpx;
 }
 /* 设置中间余额和积分栏 */
 .middle{
@@ -89,23 +81,20 @@ image{
   justify-content: space-around;
   text-align: center;
 }
-.middle text{
+.middle>view>text{
   font-size: 16px;
   color:#f00;
   font-weight: 900;
 }
 
-.yue,.jifen{
-  float: left;
-  padding:10px;
-}
-
-.yue view,.jifen view{
-  font-size:12px;
-  color:rgba(73, 71, 71,0.9);
-  margin:8px;
+.middle>view{
+  font-size:14px;
+  color:#666;
+  margin:20rpx;
   }
-
+.yue view,.jifen view{
+  margin-top:10rpx;
+}
  /* <!-- 设置我的订单 --> */
 .my-order{
   width:100%;
@@ -123,10 +112,15 @@ image{
   background-color: #fff;
   margin-top: 5px;
   }
-.my-order:after{
+
+.image-order{
+  display:flex;
+  border-bottom: 1px solid rgb(238, 235, 238);
+}
+/* .my-order:after{
   content: "";
   display:block;
-}
+} */
 .my-img-order image , .my-img-order view{
   float: left;
   font-size:16px;
@@ -136,11 +130,11 @@ image{
 .my-img-order view{
   margin-left:10px;
 }
-.my-img-order{
+/* .my-img-order{
   float: left;
-}
+} */
 .select-order{
-  float: left;
+  /* float: left; */
   color:#ccc;
   font-size: 14px;
 }
@@ -148,10 +142,13 @@ image{
 .dss{
   display: flex;
   justify-content: space-around;
-  text-align: center;
+  align-self: center;
   font-size:14px;
   color:#999;
   padding:20px 0;
 }
 
-
+.pay image{
+  margin:0 auto;
+  margin-bottom:15rpx;
+}

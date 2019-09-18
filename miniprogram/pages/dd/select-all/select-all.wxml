@@ -1,0 +1,22 @@
+<!--pages/dd/select-all/select-all.wxml-->
+<!-- <text>pages/dd/select-all/select-all.wxml</text> -->
+<view class="select-all">
+  <view class="all">全部</view>
+  <view class="evaluate" bindtap="handleTap">
+    <view>点评</view>
+    <text>0</text>
+  </view>
+  <view class="evaluate">
+    <view>相册</view>
+    <text>0</text>
+  </view>
+  <view class="evaluate">
+    <view>攻略</view>
+    <text>0</text>
+  </view>
+  <view class="evaluate">
+    <view>签到</view>
+    <text>0</text>
+  </view>
+
+</view>
