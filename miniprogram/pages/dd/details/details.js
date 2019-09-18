@@ -5,7 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-  list: [{ id:1,title: "小炒黄牛肉", price: 49, msg: 0 }, { id:2,title: "大炒黄牛肉", price: 59, msg: 0 }, { id:3,title: "小炒黄牛肉", price: 69, msg: 0 }, { id:4,title: "小炒黄牛肉", price: 79, msg: 0 }, { id:5,title: "小炒黄牛肉", price: 89, msg: 0 }]
+    lists: [{ id: 1, title: "小炒黄牛肉", price: 49, n: 5 }, { id: 2, title: "大炒黄牛肉", price: 59, n: 0 }, { id: 3, title: "小炒黄牛肉", price: 69, n: 0 }, { id: 4, title: "小炒黄牛肉", price: 79, n: 0}, { id:5,title: "小炒黄牛肉", price: 89,n:5}]
+  },
+  change1:function(event){
+    var list=event.target.dataset
+    list.id.n-=1
+    this.setData({
+      lists:list
+    })
+  },
+  change2:function(event){
+    var n=event.target.dataset.id.n
+    console.log(n)
+    n++
+    this.setData({
+      n: n
+    })
   },
 
   /**

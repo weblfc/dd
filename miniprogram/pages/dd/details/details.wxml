@@ -9,21 +9,21 @@
     <view>汤类</view>
     <view>时令蔬菜</view>
   </view>
-  <view wx:for="{{list}}" wx:key="index" class="col-8">
+  <view wx:for="{{lists}}" wx:key="{{index}}" wx:item="{{item}}" class="col-8">
     <view>
       <image src="/images/001.jpg"></image>
     </view>
     <view>
       <view>
-        <text>{{item.title}}</text>
+        <text class="item.title">{{item.title}}</text>
       </view>
       <view>
         <text>￥{{item.price}}.00/份</text>
       </view>
       <view>
-        <button>-</button>
-        <view>{{item.msg}}</view>
-        <button>+</button>
+        <button bindtap="change1" data-id="{{item}}">-</button>
+        <view>{{item.n}}</view>
+        <button bindtap="change2" data-id="{{item}}">+</button>
       </view>
     </view>
   </view>

@@ -19,6 +19,7 @@ view,button{box-sizing: border-box;margin:0;padding:0}
   height:60px;
   line-height: 60px;
   padding-left:15px;
+  color:#666
 }
 /* 菜品详情 */
 .col-8{
@@ -77,4 +78,7 @@ view,button{box-sizing: border-box;margin:0;padding:0}
 .col-8>view:last-child>view:nth-child(2){
   color:red;
   font-size:21px;
+}
+.item.title{
+  color:#666
 }

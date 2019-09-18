@@ -1,1 +1,115 @@
 /* pages/dd/cart/cart.wxss */
+/* pages/dd/detalis/details.wxss */
+/* 引入样式文件 */
+@import "../../../style/common.wxss";
+view,button{box-sizing: border-box;margin:0;padding:0}
+/* 父元素设置 */
+.row{
+  width:100%;
+}
+/* 菜品类 */
+.col-2{
+  float:left;
+  width:25%;
+  height:100%;
+  box-sizing: border-box;
+}
+/* 菜品类型 */
+.col-2>view{
+  width:100%;
+  height:60px;
+  line-height: 60px;
+  padding-left:15px;
+  color:#666
+}
+/* 菜品详情 */
+.col-8{
+  float:right;
+  width:100%;
+  height:100%;
+  box-sizing: border-box;
+  margin-bottom:5px;
+  margin-left:5px;
+}
+/* 菜品详情左右部分浮动 */
+.col-8>view{
+  float:left;
+  background: #fff
+}
+/* 菜品详情第左边宽高 */
+.col-8>view:first-child{
+  width:40%;height:100px;
+}
+/* 菜品详情图片宽高 */
+.col-8>view:first-child>image{
+  width:100%;height:100%;
+}
+/* 菜品详情右边宽高 */
+.col-8>view:last-child{
+  width:60%;height:100px;
+}
+/* 菜品详情加减部分宽高  设置弹性 */
+.col-8>view:last-child>view:last-child{
+  width: 60%;
+  height: 40px;
+  float:right;
+  display: flex;
+}
+/* 加减部分和内容设置主轴方向 */
+.col-8>view:last-child>view:last-child button,.col-8>view:last-child>view:last-child view{
+  justify-content: space-between;
+}
+/* 设置加减button的宽和行高 */
+.col-8>view:last-child>view:last-child button{
+  width:30%;
+  line-height: 40px;
+  border:1px solid #e8e8e8
+}
+/* 设置加减部分的内容的宽高 */
+.col-8>view:last-child>view:last-child view{
+  width:40%;
+  text-align: center;
+  line-height: 40px;
+  border-top:1px solid #e8e8e8;
+  border-bottom:1px solid #e8e8e8;
+}
+/* 设置下内边距 */
+.col-8>view:last-child>view:first-child,.col-8>view:last-child>view:nth-child(2){
+  padding-bottom:5px;
+  padding-left:10px;
+}
+.col-8>view:last-child>view:nth-child(2){
+  color:red;
+  font-size:21px;
+}
+.tuijian{
+  margin:0 auto;
+}
+.jingpin{
+  float: left;
+  width:45%;
+  height:400rpx;
+  background:#fff;
+  margin:15rpx;
+}
+.jingpin-img{
+  width: 100%;
+  height: 65%
+}
+.jingpin-price{
+    color:red;
+  font-size:21px;
+  padding:10rpx;
+}
+.jingpin-title{
+  color:#666;
+  padding:10rpx;
+}
+.jingpin-tuijian{
+  color:#f00;
+  font-size:19px;
+  width:100%;text-align:center;height:60rpx;margin:10rpx 0;
+}
+.item.title{
+  color:#666
+}
