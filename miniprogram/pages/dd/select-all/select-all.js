@@ -1,43 +1,16 @@
-// pages/dd/my/my.js
+// pages/dd/select-all/select-all.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  },
-// 上传图片
-  upload:function(){
-    wx.chooseImage({
-      count: 1,
-      sizeType: ["original", "compressed"],
-      sourceType:["album","camera"],
-      successs:(res=>{
-        var img = res.tempFilePaths[0];
-        wx.cloud.uploadFile({
-          cloudPath: new Date().getTime() + ".jpg" ,
-          filePath:img,
-          success:(res=>{
-            console.log(res.fildID)
-          }) 
 
-        })
-      }),
-    })
+  },
+
+  handleTap:function(){
     
-  },
-
-// 页面跳转到select-all
-jumpComment:function(event){
-  // var id = event.target.dataset.id;
-  wx.navigateTo({
-    url: '/pages/dd/select-all/select-all'
-  })
-},
-
-
-
-
+  }
 
 
 

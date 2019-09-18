@@ -1,0 +1,43 @@
+/* pages/dd/select-all/select-all.wxss */
+
+.select-all{
+  width:100%;
+  background-color: #fff;
+  display:flex;
+  justify-content: space-around;
+  padding:20rpx;
+  text-align: center;
+}
+.all{
+  font-size:16px;
+  font-family: yahei;
+  color:rgb(65, 62, 62);
+  margin:auto 0;
+}
+.evaluate{
+  font-size:14px;
+  font-family: yahei;
+  color:rgb(65, 62, 62);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
