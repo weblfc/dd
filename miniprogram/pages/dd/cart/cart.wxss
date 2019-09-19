@@ -87,7 +87,7 @@ view,button{box-sizing: border-box;margin:0;padding:0}
 }
 .jingpin{
   float: left;
-  width:45%;
+  width:46%;
   height:400rpx;
   background:#fff;
   margin:15rpx;
@@ -108,8 +108,44 @@ view,button{box-sizing: border-box;margin:0;padding:0}
 .jingpin-tuijian{
   color:#f00;
   font-size:19px;
-  width:100%;text-align:center;height:60rpx;margin:10rpx 0;
+  width:100%;text-align:center;height:80rpx;margin:10rpx 0;
+  background:#fff;
+  line-height: 80rpx;
 }
 .item.title{
   color:#666
+}
+.jiesuan{
+  display: flex;
+  justify-content: space-between
+}
+.jiesuan-price{
+  width:70%;
+  height:100rpx;
+  background:#fff;
+}
+.jiesuan-go{
+  width:30%;
+  height:100rpx;
+  background:#ff3030;
+}
+.xy{
+  display: flex;
+  justify-content: space-between;
+}
+.xy-item{
+  border:1px solid #ff3030;
+  color:#ff3030;
+  font-size:21rpx;
+  line-height: 40rpx;
+  width:120rpx;
+  height:40rpx;
+  margin:20rpx 10rpx;
+}
+.xy-info{
+  margin:20rpx 10rpx;
+  width:120rpx;
+  height:40rpx;
+  color:#666;
+  font-size:26rpx;
 }
