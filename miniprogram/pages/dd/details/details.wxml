@@ -2,6 +2,7 @@
 <view>
   <image style="width:100%;height:230px;" src="/images/001.jpg"></image>
 </view>
+<view style="background-color:rgb(236, 225, 225)">
 <view class="row">
   <view class="col-2">
     <view>凉菜</view>
@@ -9,7 +10,7 @@
     <view>汤类</view>
     <view>时令蔬菜</view>
   </view>
-  <view wx:for="{{lists}}" wx:key="{{index}}" wx:item="{{item}}" class="col-8">
+  <view style="background:#fff" wx:for="{{lists}}" wx:key="{{index}}" wx:item="{{item}}" class="col-8">
     <view>
       <image src="/images/001.jpg"></image>
     </view>
@@ -28,4 +29,4 @@
     </view>
   </view>
 </view>
-
+</view>

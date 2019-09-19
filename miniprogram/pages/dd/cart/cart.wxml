@@ -1,4 +1,8 @@
 <!--pages/dd/cart/cart.wxml-->
+<view class="xy">
+  <text class="xy-info">喜宴餐厅</text>
+  <button class="xy-item">清空购物车</button>
+</view>
 <view style="background-color:rgb(236, 225, 225)">
 <view style="padding-left:10rpx;" wx:for="{{lists}}" wx:key="{{index}}" wx:item="{{item}}" class="col-8">
     <view>
@@ -19,6 +23,11 @@
     </view>
   </view>
   </view>
+<view style="background-color:rgb(236, 225, 225)">
+<view class="jiesuan">
+  <button class="jiesuan-price">合计：￥</button>
+  <button class="jiesuan-go">去结算 (0)</button>
+</view>
 <view class="jingpin-tuijian">精品推荐</view>
 <view class="tuijian">
   <view class="jingpin" wx:for="{{lists}}" wx:key="index">
@@ -27,3 +36,5 @@
     <view class="jingpin-title">{{item.title}}</view>
   </view>
 </view>
+</view>
+

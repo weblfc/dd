@@ -1,11 +1,10 @@
 {
   "pages": [
-    "pages/dd/select-all/select-all",
     "pages/dd/my/my",
     "pages/dd/details/details",
     "pages/dd/index/index",
+    "pages/dd/select-all/select-all",
     "pages/dd/cart/cart"
-    
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

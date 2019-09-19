@@ -5,7 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    imgUrls: [
+      '/images/img/b04.jpg',
+      '/images/img/b02.jpg',
+      '/images/img/b03.jpg',
+      '/images/img/b05.jpg'
+    ],
+    indicatorDots: true,
+    autoplay: true,
+    interval: 3000,
+    duration: 500,
   },
 
   /**
