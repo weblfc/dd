@@ -116,8 +116,17 @@ view,button{box-sizing: border-box;margin:0;padding:0}
   color:#666
 }
 .jiesuan{
+<<<<<<< HEAD
   display: flex;
   justify-content: space-between
+=======
+  position:fixed;
+  width:100%;
+  height:100rpx;
+  bottom:0px;
+  display: flex;
+  justify-content: space-between;
+>>>>>>> 6fec8d3c2c14bcb0c45d182f6948c4b3335013ab
 }
 .jiesuan-price{
   width:70%;
