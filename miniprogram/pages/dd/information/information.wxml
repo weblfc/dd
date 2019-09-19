@@ -1,0 +1,46 @@
+<!--pages/dd/information/information.wxml-->
+<!-- <text>pages/dd/information/information.wxml</text> -->
+<view class="information">
+  <view class="head">
+    <view>头像</view>
+    <view class="head-flex">
+      <view class="head-img">
+        <image src="/images/001.jpg"></image>
+      </view>
+      <view class="head-right">
+        <image src="/images/right1.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="head">
+    <view>昵称</view>
+    <view class="head-flex">
+      <view>1729723177</view>
+      <view class="head-right">
+        <image src="/images/right1.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="head">
+    <view>生日</view>
+    <view class="head-flex">
+      <view>未设置</view>
+      <view class="head-right">
+        <image src="/images/right1.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="head">
+    <view>收货地址</view>
+    <view class="head-flex">
+      <view>添加/修改</view>
+      <view class="head-right">
+        <image src="/images/right1.png"></image>
+      </view>
+    </view>
+  </view>
+
+</view>

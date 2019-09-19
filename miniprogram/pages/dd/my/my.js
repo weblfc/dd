@@ -28,14 +28,19 @@ Page({
   },
 
 // 页面跳转到select-all
-jumpComment:function(event){
+jumpSelect:function(event){
   // var id = event.target.dataset.id;
   wx.navigateTo({
-    url: '/pages/dd/select-all/select-all'
+    url: '/pages/dd/select-all/select-all?id=' + this.data.id,
   })
 },
 
-
+//页面跳转到Information
+jumpInformation:function(event){
+  wx.navigateTo({
+    url: '/pages/dd/information/information?id=' + this.data.id,
+  })
+},
 
 
 

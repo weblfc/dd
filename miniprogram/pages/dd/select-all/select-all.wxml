@@ -18,5 +18,96 @@
     <view>签到</view>
     <text>0</text>
   </view>
+</view>
+
+<!-- 中间图片 -->
+
+<view class="assess">
+  <view class="center">
+    <image src="/images/shoppingcar.png"></image>
+  </view>
+  <view>您好像还没有相关订单哦~</view>
+</view>
+
+
+<!-- 猜你喜欢 -->
+<view class="guess">
+  <view>猜你喜欢</view>
+  <!-- view 包裹图片和介绍 -->
+  <!-- 最外层包裹 -->
+  <view class="outside">
+    <view class="inside">
+      <view class="inside-img">
+        <image src="/images/001.jpg"></image>
+      </view>
+      <view class="inside-text">
+        <view class="text-class">
+          <view>UP健身工作室</view>
+          <view>181m</view>
+        </view>
+        <view>[83]店通用 低至0.6折体侧＋私教一对一教程三次</view>
+        <view class="should-play">
+          <view>
+            <text>￥55</text>
+            <text>￥</text>
+            <text>940</text>
+          </view>
+          <view>已售1411</view>
+        </view>
+      </view>
+
+    </view>
+    <!-- outside end -->
+
+    <view class="outside">
+      <view class="inside">
+        <view class="inside-img">
+          <image src="/images/001.jpg"></image>
+        </view>
+        <view class="inside-text">
+          <view class="text-class">
+            <view>健身工作室</view>
+            <view>181m</view>
+          </view>
+          <view>[83]店通用 低至0.6折体侧＋私教一对一教程三次</view>
+          <view class="should-play">
+            <view>
+              <text>￥55</text>
+              <text>￥</text>
+              <text>940</text>
+            </view>
+            <view>已售1411</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- outside end -->
+
+  <view class="outside">
+    <view class="inside">
+      <view class="inside-img">
+        <image src="/images/001.jpg"></image>
+      </view>
+      <view class="inside-text">
+        <view class="text-class">
+          <view>UP健身工作室</view>
+          <view>181m</view>
+        </view>
+        <view>[83]店通用 低至0.6折体侧＋私教一对一教程三次</view>
+        <view class="should-play">
+          <view>
+            <text>￥55</text>
+            <text>￥</text>
+            <text>940</text>
+          </view>
+          <view>已售1411</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- outside end -->
+
 
 </view>

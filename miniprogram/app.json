@@ -1,7 +1,9 @@
 {
   "pages": [
-    "pages/dd/select-all/select-all",
+    "pages/dd/my-vip/my-vip",
     "pages/dd/my/my",
+    "pages/dd/information/information",
+    "pages/dd/select-all/select-all",
     "pages/dd/details/details",
     "pages/dd/index/index",
     "pages/dd/cart/cart"

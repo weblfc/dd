@@ -1,0 +1,80 @@
+<!--pages/dd/my-vip/my-vip.wxml-->
+<!-- <text>pages/dd/my-vip/my-vip.wxml</text> -->
+<!-- 整个 -->
+<view class="all-vip">
+  <!-- 上面背景部分 -->
+  <view class="vip-background">
+    <view>
+      <image src="/images/001.jpg"></image>
+    </view>
+    <view>1729723177</view>
+    <view>我的成长值：1046   |   我的积分：1111</view>
+  </view>
+  <!-- 下面部分 -->
+  <view class="my-vip">
+    <view>
+      <view>我的会员</view>
+      <view>会员攻略 ></view>
+    </view>
+    <view></view>
+    <view>距下一等级还需1954成长值</view>
+  </view>
+
+  <view class="power">
+    <view>
+      <view>我的特权</view>
+      <view>查看全部 ></view>
+    </view>
+    <view class="my-power">
+      <view>
+        <image src="/images/001.jpg"></image>
+        <view>身份铭牌</view>
+      </view>
+      <view>
+        <image src="/images/001.jpg"></image>
+        <view>积分抵现</view>
+      </view>
+      <view>
+        <image src="/images/001.jpg"></image>
+        <view>免费试吃</view>
+      </view>
+    </view>
+
+
+
+
+    <view class="task">
+      <view>成长任务</view>
+
+      <view class="set">
+        <view>
+          <view>上传头像</view>
+          <view>+10成长值</view>
+        </view>
+        <view>立即设置</view>
+      </view>
+
+      <view class="set-end">
+        <view>
+          <view>初次绑定手机</view>
+          <view>+10成长值</view>
+        </view>
+        <view>已领取</view>
+      </view>
+
+      <view class="set-end">
+        <view>
+          <view>设置用户名</view>
+          <view>+10成长值</view>
+        </view>
+        <view>已领取</view>
+      </view>
+
+    </view>
+
+
+  </view>
+
+
+
+</view>

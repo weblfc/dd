@@ -1,0 +1,102 @@
+/* pages/dd/my-vip/my-vip.wxss */
+.all-vip{
+  background-color: rgb(250, 248, 248);
+  font-family: yahei;
+  color:#666;
+}
+
+.vip-background{
+  background-color: #FF3030;
+  width:100%;
+  height:220rpx;
+  text-align: center;
+  font-family: yahei;
+  color: #fff;
+}
+
+.vip-background image{
+  width:100rpx;
+  height:100rpx;
+  border-radius: 50%;
+}
+
+.my-vip{
+  background-color: #fff;
+}
+
+.my-vip>view:first-child{
+  padding:20rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.my-vip>view:last-child{
+  padding:20rpx;
+  color:black;
+  font-size: 20rpx;
+}
+
+.power{
+  margin-top:30rpx;
+  background-color: #fff;
+}
+
+.power>view:first-child{
+  display:flex;
+  padding:20rpx;
+  justify-content: space-between;
+}
+
+.my-power{
+  display: flex;
+  text-align: center;
+  font-size:20rpx;
+  padding:20rpx;
+}
+
+.my-power>view{
+  margin:20rpx;
+}
+
+.my-power image{
+  border:1px solid #FF3030;
+  width:100rpx;
+  height:100rpx;
+  border-radius: 10rpx;
+}
+
+.task{
+  background-color: #fff;
+  margin-top:20rpx;
+  font-size: 32rpx;
+}
+
+.task>view:first-child{
+  padding:20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.set{
+  display: flex;
+  justify-content: space-between;
+  padding:20rpx;
+  align-items: center;
+  margin-top:30rpx;
+}
+
+.set>view:first-child{
+  font-size: 20rpx;
+  color:#656;
+}
+
+.set>view:last-child{
+  border:1rpx solid #FF3030;
+  color:#FF3030;
+}
+
+.set-end{
+  border:1rpx solid #666;
+  color:#999;
+}
+
