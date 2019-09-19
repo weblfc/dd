@@ -24,13 +24,10 @@
   </view>
   </view>
 <view style="background-color:rgb(236, 225, 225)">
-<<<<<<< HEAD
-=======
 <view class="jiesuan">
   <button class="jiesuan-price">合计：￥</button>
   <button class="jiesuan-go">去结算 (0)</button>
 </view>
->>>>>>> 6fec8d3c2c14bcb0c45d182f6948c4b3335013ab
 <view class="jingpin-tuijian">精品推荐</view>
 <view class="tuijian">
   <view class="jingpin" wx:for="{{lists}}" wx:key="index">
@@ -40,11 +37,7 @@
   </view>
 </view>
 </view>
-<<<<<<< HEAD
 <view class="jiesuan">
   <button class="jiesuan-price">合计：￥</button>
   <button class="jiesuan-go">去结算 (0)</button>
 </view>
-=======
-
->>>>>>> 6fec8d3c2c14bcb0c45d182f6948c4b3335013ab
