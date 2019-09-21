@@ -1,10 +1,13 @@
 {
   "pages": [
+    "pages/dd/index/index",
     "pages/dd/my/my",
     "pages/dd/details/details",
-    "pages/dd/index/index",
     "pages/dd/select-all/select-all",
-    "pages/dd/cart/cart"
+    "pages/dd/cart/cart",
+    "pages/dd/cart1/cart1",
+    "pages/dd/my-vip/my-vip",
+    "pages/dd/information/information"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

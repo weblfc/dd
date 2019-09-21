@@ -1,0 +1,50 @@
+/* pages/dd/information/information.wxss */
+
+.information{
+  margin-top:30rpx;
+  background-color: #fff;
+  width:100%;
+  font-family: yahei;
+  color:#666;
+  font-weight: 600;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  padding:30rpx 20rpx;
+  text-align: center;
+  align-items:center; 
+  border-bottom: 1px solid rgb(231, 229, 229);
+}
+
+.head-img{
+  width:120rpx;
+  height:120rpx;
+  /* border:1px solid #f00; */
+  /* border-radius: 50%; */
+}
+.head-flex{
+  display:flex;
+
+  align-items:center; 
+}
+.head-img image{
+  width:120rpx;
+  height:120rpx;
+  border-radius: 50%;
+}
+.head-right image{
+  width:50rpx;
+  height:50rpx;
+  margin-left:10rpx;
+}
+
+
+
+
+
+
+
+
+

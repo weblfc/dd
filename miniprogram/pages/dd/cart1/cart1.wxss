@@ -1,0 +1,7 @@
+/* pages/dd/cart1/cart1.wxss */
+view{
+  text-align: center;
+  color:#f00;
+  font-size:69rpx;
+  padding-top:40%
+}

@@ -1,32 +1,90 @@
 <!--pages/dd/detalis/details.wxml-->
 <view>
-  <image style="width:100%;height:230px;" src="/images/001.jpg"></image>
+  <image style="width:100%;height:230px;" src="/images/img/b01.jpg"></image>
 </view>
 <view style="background-color:rgb(236, 225, 225)">
 <view class="row">
   <view class="col-2">
-    <view>凉菜</view>
-    <view>热菜</view>
-    <view>汤类</view>
-    <view>时令蔬菜</view>
+    <view bindtap="add1">凉菜</view>
+    <view bindtap="add2">热菜</view>
+    <view bindtap="add3">汤类</view>
+    <view bindtap="add4">时令蔬菜</view>
   </view>
-  <view style="background:#fff" wx:for="{{lists}}" wx:key="{{index}}" wx:item="{{item}}" class="col-8">
+  <!-- 循环 -->
+  <view style="background:#fff" wx:for="{{lists1}}" wx:key="{{index}}" wx:item="{{item}}" class="col-8" wx:if="{{id==1}}">
     <view>
-      <image src="/images/001.jpg"></image>
+      <image src="{{item.img}}"></image>
     </view>
     <view>
-      <view>
-        <text class="item.title">{{item.title}}</text>
-      </view>
-      <view>
-        <text>￥{{item.price}}.00/份</text>
-      </view>
-      <view>
-        <button bindtap="change1" data-id="{{item}}">-</button>
-        <view>{{item.n}}</view>
-        <button bindtap="change2" data-id="{{item}}">+</button>
+        <view>
+            <text class="item.title">{{item.title}}</text>
+        </view>
+        <view>
+            <text>￥{{item.price}}.00/份</text>
+        </view>
+        <view>
+            <button bindtap="change11" data-id="{{item}}">-</button>
+            <view>{{item.n}}</view>
+            <button bindtap="change21" data-id="{{item}}">+</button>
       </view>
     </view>
   </view>
+  <view style="background:#fff" wx:for="{{lists2}}" wx:key="{{index}}" wx:item="{{item}}" class="col-8" wx:if="{{id==2}}">
+    <view>
+      <image src="{{item.img}}"></image>
+    </view>
+    <view>
+        <view>
+            <text class="item.title">{{item.title}}</text>
+        </view>
+        <view>
+            <text>￥{{item.price}}.00/份</text>
+        </view>
+        <view>
+            <button bindtap="change12" data-id="{{item}}">-</button>
+            <view>{{item.n}}</view>
+            <button bindtap="change22" data-id="{{item}}">+</button>
+      </view>
+    </view>
+  </view>
+  <view style="background:#fff" wx:for="{{lists3}}" wx:key="{{index}}" wx:item="{{item}}" class="col-8" wx:if="{{id==3}}">
+    <view>
+      <image src="{{item.img}}"></image>
+    </view>
+    <view>
+        <view>
+            <text class="item.title">{{item.title}}</text>
+        </view>
+        <view>
+            <text>￥{{item.price}}.00/份</text>
+        </view>
+        <view>
+            <button bindtap="change13" data-id="{{item}}">-</button>
+            <view>{{item.n}}</view>
+            <button bindtap="change23" data-id="{{item}}">+</button>
+      </view>
+    </view>
+  </view>
+  <view style="background:#fff" wx:for="{{lists4}}" wx:key="{{index}}" wx:item="{{item}}" class="col-8" wx:if="{{id==4}}">
+    <view>
+      <image src="{{item.img}}"></image>
+    </view>
+    <view>
+        <view>
+            <text class="item.title">{{item.title}}</text>
+        </view>
+        <view>
+            <text>￥{{item.price}}.00/份</text>
+        </view>
+        <view>
+            <button bindtap="change14" data-id="{{item}}">-</button>
+            <view>{{item.n}}</view>
+            <button bindtap="change24" data-id="{{item}}">+</button>
+      </view>
+    </view>
+  </view>
+
+
+
 </view>
 </view>

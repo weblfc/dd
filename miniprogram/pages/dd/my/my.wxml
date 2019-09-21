@@ -3,7 +3,7 @@
 <view class="body">
   <view class="top">
     <view class="top-img">
-      <image src="/images/shoppingcar.png" bindtap="upload"></image>
+      <image src="/images/001.jpg" bindtap="upload"></image>
     </view>
     <view class="top-text">
       <view>会员ID：1729723177</view>
@@ -37,20 +37,20 @@
     <view class="image-order">
       <view class="my-img-order">
         <image src="/images/mydingdan.png"></image>
-        <view>我的订单</view>
+        <view bindtap="jumpSelect">我的订单</view>
       </view>
-      <view class="select-order" bindtap="jumpComment">查看所有订单</view>
+      <view class="select-order" bindtap="jumpSelect">查看所有订单</view>
     </view>
     <view class="dss">
-      <view class="pay">
+      <view class="pay"  bindtap="jumpSelect">
         <image src="/images/dingdan.png"></image>
         <view>待付款</view>
       </view>
-      <view class="pay">
+      <view class="pay"  bindtap="jumpSelect">
         <image src="/images/shoppingcar.png"></image>
         <view>发货中</view>
       </view>
-      <view class="pay">
+      <view class="pay"  bindtap="jumpSelect">
         <image src="/images/success.png"></image>
         <view>已完成</view>
       </view>
@@ -58,7 +58,7 @@
   </view>
 
   <!-- 设置我的资料 -->
-  <view class="image-order">
+  <view class="image-order" bindtap="jumpInformation">
     <view class="my-img-order">
       <image src="/images/me.png"></image>
       <view>我的资料</view>
@@ -70,7 +70,7 @@
   <!-- 设置我的拼团 -->
   <view class="image-order">
     <view class="my-img-order">
-      <image src="/images/tuan.png"></image>
+      <image src="/images/pingtuan1.png"></image>
       <view>我的拼团</view>
     </view>
     <view class="select-order">
@@ -91,7 +91,7 @@
 
 
   <!-- 设置我的会员卡 -->
-  <view class="image-order">
+  <view class="image-order" bindtap="jumpMyvip">
     <view class="my-img-order">
       <image src="/images/vip.png"></image>
       <view>会员中心</view>
